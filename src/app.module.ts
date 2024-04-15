@@ -13,7 +13,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
   imports: [
-    MongooseModule.forRoot("mongodb://localhost:27017/nestReact"), PostsModule, RegisterModule, LoginModule,
+    MongooseModule.forRoot("mongodb+srv://waleedAlmenawy:nf3VSmHh27xHStWa@iti.t3i9ucu.mongodb.net/reactNest"), PostsModule, RegisterModule, LoginModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
     }),
