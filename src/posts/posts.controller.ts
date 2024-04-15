@@ -13,7 +13,7 @@ export class PostsController {
   @Post()
   @UseInterceptors(FileInterceptor('image'))
   async uploadImage(@UploadedFile() file, @Body() body) {
-    const uploadDirectory = '../public';
+    const uploadDirectory = 'public';
     if (!fs.existsSync(uploadDirectory)) {
       fs.mkdirSync(uploadDirectory, { recursive: true });
     }
