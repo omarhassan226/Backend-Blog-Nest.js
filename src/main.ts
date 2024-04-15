@@ -9,7 +9,6 @@ async function bootstrap() {
 // app.useGlobalPipes(new ValidationPipe())
  
 const corsOptions: CorsOptions = {
-  origin: 'http://localhost:5173', // Allow requests from this origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allow these HTTP methods
   preflightContinue: false,
   optionsSuccessStatus: 200,

@@ -26,6 +26,7 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/mongoose": "^10.0.5",
     "@nestjs/platform-express": "^10.3.7",
+    "@nestjs/serve-static": "^4.0.2",
     "class-validator": "^0.14.1",
     "cors": "^2.8.5",
     "jsonwebtoken": "^9.0.2",
